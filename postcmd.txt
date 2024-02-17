@@ -1,0 +1,3 @@
+curl -X POST -H "Content-Type: application/json" -d '{"age": 24, "sex": 1, "cp": 3, "trestbps": 145, "chol": 133, "fbs": 1, "restecg": 0, "thalach": 100, "exang": 0, "oldpeak": 2.3, "slope": 0, "ca": 0, "thal": 1}' http://127.0.0.1:5000/predict
+
+use above cmd with different values of features for prediction.
